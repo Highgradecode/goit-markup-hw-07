@@ -1,0 +1,115 @@
+.footer {
+    background-color: var(--footer-color);
+    padding-bottom: 60px;
+}
+ 
+.footer-logo-word1 {
+    color: var(--accent-color);
+    text-decoration: none;
+    font-family: Raleway;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+}
+ 
+.footer-logo-word2 {
+    color: var(--white-color);
+    text-decoration: none;
+    font-family: Raleway;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+}
+
+.footer-list {
+    list-style: none;
+    margin-top: 20px;
+    margin-right: 70px;
+}
+
+.footer-item1 {
+    text-decoration: none;
+    color: var(--white-color);
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
+
+.footer-item2 {
+    text-decoration: none;
+    color: #FFFFFF99;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
+
+.footer-adr {
+    margin-bottom: 9px;
+}
+
+.footer-adr:last-child {
+    margin-bottom: 0px;
+}
+
+.footer-info {
+    padding-top: 60px;
+}
+   
+.social-integration {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: var(--white-color);
+    margin-bottom: 20px;
+}
+
+.footer-container {
+    display: flex;
+}
+
+.footer-socials {
+    width: 206px;
+    height: 80px;
+    padding-top: 72px;
+}
+
+.footer-socials-list {
+    list-style: none; 
+    display: flex;
+    justify-content: center;
+}
+
+.footer-socials-details {
+    width: 44px;
+    height: 44px;
+}
+
+.footer-socials-details+ .footer-socials-details {
+    margin-left: 10px;
+}
+
+.footer-socials-link {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    transition-property: var(--accent-color);
+    transition-duration: 250ms; 
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-socials-icon {
+    fill: var(--second-icon-color);
+}
+
+.footer-socials-link:hover,
+.footer-socials-link:focus {
+    background-color: var(--accent-color);
+}
