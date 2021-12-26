@@ -186,16 +186,6 @@ body {
   fill: currentColor;
 }
 
-.hero-title {
-  margin-top: 0px;
-  margin-bottom: 30px;
-  color: var(--main-title-color);
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.4;
-  letter-spacing: 0.06em;
-}
-
 .hero {
   text-align: center;
   padding-top: 200px;
@@ -210,10 +200,19 @@ body {
   background-size: cover;
 }
 
-/* Hero Buttons */
-.modal-btn-hero {
-  color: var(--first-button-color);
-  background-color: var(--accent-color);
+.hero__title {
+  margin-top: 0px;
+  margin-bottom: 30px;
+  color: #FFFFFF;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  letter-spacing: 0.06em;
+}
+
+.hero__modal-button {
+  color: #FFFFFF;
+  background-color: #2196F3;
   border: 0;
   font-family: inherit;
   display: inline-block;
