@@ -1,10 +1,10 @@
 .footer {
-    background-color: var(--footer-color);
+    background-color: $footer-color;
     padding-bottom: 60px;
 }
  
 .footer-logo-word1 {
-    color: var(--accent-color);
+    color: $accent-color;
     text-decoration: none;
     font-family: Raleway;
     font-size: 26px;
@@ -13,7 +13,7 @@
 }
  
 .footer-logo-word2 {
-    color: var(--white-color);
+    color: $white-color;
     text-decoration: none;
     font-family: Raleway;
     font-size: 26px;
@@ -29,7 +29,7 @@
 
 .footer-item1 {
     text-decoration: none;
-    color: var(--white-color);
+    color: $white-color;
     font-style: normal;
     font-size: 14px;
     line-height: 1.7;
@@ -63,7 +63,7 @@
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.03em;
-    color: var(--white-color);
+    color: $white-color;
     margin-bottom: 20px;
 }
 
@@ -100,16 +100,16 @@
     align-items: center;
     justify-content: center;
     background-color: rgba(255, 255, 255, 0.1);
-    transition-property: var(--accent-color);
+    transition-property: $accent-color;
     transition-duration: 250ms; 
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-socials-icon {
-    fill: var(--second-icon-color);
+    fill: $second-icon-color;
 }
 
 .footer-socials-link:hover,
 .footer-socials-link:focus {
-    background-color: var(--accent-color);
+    background-color: $accent-color;
 }
