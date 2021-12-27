@@ -70,3 +70,9 @@ body {
    letter-spacing: 0.03em;
    margin-bottom: 50px;
 }
+
+.is-hidden {
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+}
