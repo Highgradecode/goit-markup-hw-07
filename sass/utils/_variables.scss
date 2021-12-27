@@ -52,8 +52,8 @@ image {
 }
  
 body {
-    background-color: var(--main-background-color);
-    color: var(--first-text-color);
+    background-color: $main-background-color;
+    color: $first-text-color;
                                        
     font-family: 'Roboto', sans-serif;
 }
@@ -63,7 +63,7 @@ body {
 }
 
 .section-title {
-   color: var(--second-title-color);
+   color: $second-title-color;
    font-size: 36px;
    line-height: 1.2;
    text-align: center;
